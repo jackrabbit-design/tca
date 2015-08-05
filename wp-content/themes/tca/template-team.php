@@ -7,6 +7,7 @@
   		<div class="header-row row-three"></div>
      	<div class="header-row row-two"></div>
      	<div class="header-row row-one"></div>
+     	<div class="gradient"></div>
      	<div class="wrapper">
 
 <!--
@@ -22,6 +23,11 @@
 		</div>
 	</div>
 	
+	<div class="page-title">
+		<h1><?php the_title(); ?></h1>
+	</div>
+
+
 	<div class="wrapper">
 		<!--<
 div class="team-bios">
@@ -33,11 +39,12 @@ div class="team-bios">
 		</div>
 -->
 		
-	</div>
 	
 	<div class="team-controls">
       <button class="button prev">Previous</button>
       <button class="button next">Next</button>
+    </div>
+
     </div>
     
     <div id="full-team" class="clearfix">
