@@ -1,0 +1,1 @@
+<?php /*Template Name: PDF*/ wp_redirect(get_field('pdf'),301); ?>

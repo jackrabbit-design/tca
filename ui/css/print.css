@@ -1,0 +1,15 @@
+.top-header-wrapper, nav, footer, .video-wrapper, .post-share, .contact-sticky, main .module.blog-post{display: none;}
+body {font: 14pt Georgia, "Times New Roman", Times, serif; line-height: 1.5;}
+#single .post-images ul{}
+#single .post-images ul li{list-style: none; display: block;}
+
+.venue-slider-wrap img{-webkit-backface-visibility: hidden;
+  position: static !important;
+  display: block;
+  max-width: none;
+  height: auto;
+  width: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  left: 0p;
+  top: 0px;}

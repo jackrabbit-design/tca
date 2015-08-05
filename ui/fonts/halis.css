@@ -1,0 +1,336 @@
+@import "//hello.myfonts.net/count/252964";
+
+/* @license
+ * MyFonts Webfont Build ID 2435428, 2012-12-20T13:24:48-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed halis(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Halis Grotesque Light Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/light-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Light by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/light/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Black by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/black/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Black Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/black-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Bold by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/bold/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Book Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/book-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque ExtraLight by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/exlight/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque ExtraLight Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/exlight-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Book by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/book/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Medium by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/medium/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Medium Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/medium-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/regular-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Bold Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/bold-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Regular by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/regular/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Black by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sblack/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Black Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sblack-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Bold by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sbold/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Bold Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sbold-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Book Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sbook-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Book by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sbook/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC ExtraLight by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sexlight/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC ExtraLight Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sexlight-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Light by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/slight/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC light Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/slight-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Medium by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/smedium/
+ * Copyright: Copyright (c) 2012 by Ahmet altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Regular by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sregular/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Medium Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/smedium-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sregular-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Thin by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sthin/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Thin Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sthin-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Thin by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/thin/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Thin Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/thin-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2435428
+ * 
+ * © 2012 Bitstream Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+	font-family:'HalisGR-LightItalic';
+	src:url(halis/252964_0_0.eot);
+	src:url(halis/252964_0_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_0_0.woff") format("woff"),url("halis/252964_0_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-Light';
+	src:url(halis/252964_1_0.eot);
+	src:url(halis/252964_1_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_1_0.woff") format("woff"),url("halis/252964_1_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-Black';
+	src:url(halis/252964_2_0.eot);
+	src:url(halis/252964_2_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_2_0.woff") format("woff"),url("halis/252964_2_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-BlackItalic';
+	src:url(halis/252964_3_0.eot);
+	src:url(halis/252964_3_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_3_0.woff") format("woff"),url("halis/252964_3_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-Bold';
+	src:url(halis/252964_4_0.eot);
+	src:url(halis/252964_4_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_4_0.woff") format("woff"),url("halis/252964_4_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-BookItalic';
+	src:url(halis/252964_5_0.eot);
+	src:url(halis/252964_5_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_5_0.woff") format("woff"),url("halis/252964_5_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-ExtraLight';
+	src:url(halis/252964_6_0.eot);
+	src:url(halis/252964_6_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_6_0.woff") format("woff"),url("halis/252964_6_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-ExtraLightItalic';
+	src:url(halis/252964_7_0.eot);
+	src:url(halis/252964_7_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_7_0.woff") format("woff"),url("halis/252964_7_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-Book';
+	src:url(halis/252964_8_0.eot);
+	src:url(halis/252964_8_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_8_0.woff") format("woff"),url("halis/252964_8_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-Medium';
+	src:url(halis/252964_9_0.eot);
+	src:url(halis/252964_9_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_9_0.woff") format("woff"),url("halis/252964_9_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-MediumItalic';
+	src:url(halis/252964_A_0.eot);
+	src:url(halis/252964_A_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_A_0.woff") format("woff"),url("halis/252964_A_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-RegularItalic';
+	src:url(halis/252964_B_0.eot);
+	src:url(halis/252964_B_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_B_0.woff") format("woff"),url("halis/252964_B_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-BoldItalic';
+	src:url(halis/252964_C_0.eot);
+	src:url(halis/252964_C_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_C_0.woff") format("woff"),url("halis/252964_C_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-Regular';
+	src:url(halis/252964_D_0.eot);
+	src:url(halis/252964_D_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_D_0.woff") format("woff"),url("halis/252964_D_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SBlack';
+	src:url(halis/252964_E_0.eot);
+	src:url(halis/252964_E_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_E_0.woff") format("woff"),url("halis/252964_E_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SBlackItalic';
+	src:url("halis/252964_F_0.eot");
+	src:url("halis/252964_F_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_F_0.woff") format("woff"),url("halis/252964_F_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SBold';
+	src:url("halis/252964_10_0.eot");
+	src:url("halis/252964_10_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_10_0.woff") format("woff"),url("halis/252964_10_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SBoldItalic';
+	src:url("halis/252964_11_0.eot");
+	src:url("halis/252964_11_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_11_0.woff") format("woff"),url("halis/252964_11_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SBookItalic';
+	src:url(halis/252964_12_0.eot);
+	src:url(halis/252964_12_0.eot?#iefix) format("embedded-opentype"),url("halis/252964_12_0.woff") format("woff"),url("halis/252964_12_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SBook';
+	src:url("halis/252964_13_0.eot");
+	src:url("halis/252964_13_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_13_0.woff") format("woff"),url("halis/252964_13_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SExtraLight';
+	src:url("halis/252964_14_0.eot");
+	src:url("halis/252964_14_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_14_0.woff") format("woff"),url("halis/252964_14_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SExtraLightItalic';
+	src:url("halis/252964_15_0.eot");
+	src:url("halis/252964_15_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_15_0.woff") format("woff"),url("halis/252964_15_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SLight';
+	src:url("halis/252964_16_0.eot");
+	src:url("halis/252964_16_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_16_0.woff") format("woff"),url("halis/252964_16_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SlightItalic';
+	src:url("halis/252964_17_0.eot");
+	src:url("halis/252964_17_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_17_0.woff") format("woff"),url("halis/252964_17_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SMedium';
+	src:url("halis/252964_18_0.eot");
+	src:url("halis/252964_18_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_18_0.woff") format("woff"),url("halis/252964_18_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SRegular';
+	src:url("halis/252964_19_0.eot");
+	src:url("halis/252964_19_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_19_0.woff") format("woff"),url("halis/252964_19_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SMediumItalic';
+	src:url("halis/252964_1A_0.eot");
+	src:url("halis/252964_1A_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_1A_0.woff") format("woff"),url("halis/252964_1A_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SRegularItalic';
+	src:url("halis/252964_1B_0.eot");
+	src:url("halis/252964_1B_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_1B_0.woff") format("woff"),url("halis/252964_1B_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SThin';
+	src:url("halis/252964_1C_0.eot");
+	src:url("halis/252964_1C_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_1C_0.woff") format("woff"),url("halis/252964_1C_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-SThinItalic';
+	src:url("halis/252964_1D_0.eot");
+	src:url("halis/252964_1D_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_1D_0.woff") format("woff"),url("halis/252964_1D_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-Thin';
+	src:url("halis/252964_1E_0.eot");
+	src:url("halis/252964_1E_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_1E_0.woff") format("woff"),url("halis/252964_1E_0.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:'HalisGR-ThinItalic';
+	src:url("halis/252964_1F_0.eot");
+	src:url("halis/252964_1F_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_1F_0.woff") format("woff"),url("halis/252964_1F_0.ttf") format("truetype");
+}
