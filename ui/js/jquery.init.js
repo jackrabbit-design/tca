@@ -4,6 +4,7 @@
 jQuery(function($) { /*Video Background*/
 	chnageEvent();
 	toInfinityScrollAndBeyond();
+	_teamPage();
 	//Gallery Mix Up
 	window.lazySizesConfig = window.lazySizesConfig || {};
 	window.lazySizesConfig.expand = 9;
@@ -315,5 +316,44 @@ function toInfinityScrollAndBeyond() {
 			img: '../../ui/images/loadmore-cus.gif'
 		},
 	});
+}
+
+function _teamPage(){
+	
+	
+	
+/*
+	var speed = 400;
+	var wWidth = $(window).width();
+	
+	var url = $('.row-bg').css('background-image').replace('url(', '').replace(')', '').replace("'", '').replace('"', '');
+	var bgImg = $('<img />');
+	bgImg.hide();
+	bgImg.bind('load', function()
+	{
+	    var bWidth = $(this).width();
+	    console.log('And this is the background image size '+bWidth);
+	});
+	$('.row-bg').append(bgImg);
+	bgImg.attr('src', url);
+	
+	console.log('this is the windows '+ wWidth);
+	
+	$('button.prev').on('click', function(){
+		$('.row-bg').css('background-position', '+='+ speed +' 0');
+		$('.row-three').css('background-position', '+='+ speed +' 0');
+		$('.row-two').css('background-position', '+='+ speed +' 0');
+		$('.row-one').css('background-position', '+='+ speed +' 0');
+		
+	});
+
+	$('button.next').on('click', function(){
+		$('.row-bg').css('background-position', '-='+ speed +' 0');
+		$('.row-three').css('background-position', '-='+ speed +' 0');
+		$('.row-two').css('background-position', '-='+ speed +' 0');
+		$('.row-one').css('background-position', '-='+ speed +' 0');
+		
+	});
+*/
 }
 
