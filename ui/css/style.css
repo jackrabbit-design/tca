@@ -1028,7 +1028,7 @@ width: 50%;}
 
 /* Full Team */
 
-#full-team {max-width: 980px; width: auto; padding: 0 20px; margin: 0 auto; border-top: 1px solid #e2e2e2;}
+#full-team {max-width: 980px; width: auto; padding: 0 20px; margin: 0 auto;}
 
 #full-team li{display: block; float: left; text-align: center; width: 24.375%; margin-right: 0.83333333333333%; margin-bottom: 30px;}
 
