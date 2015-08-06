@@ -2,7 +2,7 @@
 /* ========================================================================= */
 /* !RESETS AND DEFAULTS */
 /* ========================================================================= */
-@import url(../fonts/halis.css);
+@import url(../fonts/halis-fix.css);
 @import url(slick.css);
 html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, img, ins, kbd, q, samp, var, hr, acronym, dl, dt, dd, ol, ul, li, pre, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { border: 0; outline: 0; font-style: normal; font-weight: 400; font-size: 100%; vertical-align: baseline; margin: 0; padding: 0; -webkit-text-size-adjust: 100%; }
 
@@ -222,19 +222,19 @@ body { background: #fff; }
 
 /* != GENERAL ELEMENTS ===== */
 h2 { font: 100 48px/58px "ProximaNov"; color: #605371; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; margin: 0 0 15px 0; }
-h2 small { color: #9e95ab; text-transform: uppercase; font-family: "HalisGR-SBold", sans-serif; font-size: 14px; display: block; }
+h2 small { color: #9e95ab; text-transform: uppercase; font-family: "HalisGR", sans-serif; font-weight: 700; font-size: 14px; display: block; }
 
 h3 { font: 100 42px/46px "ProximaNov"; color: #605371; margin: 0 0 15px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 h3 a { color: #605371; }
 h3 a:hover { color: #b2a4c4; }
 
 h4 { font: 100 32px/36px "ProximaNov"; margin: 0 0 10px 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-h5{font: 13px/18px "HalisGR-SBold", sans-serif; margin: 0 0 5px 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-transform: uppercase; color: #605371;}
-h6 { font: 11px/30px "HalisGR-SBold", sans-serif; margin: 0 0 5px 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-transform: uppercase; color: #605371; }
+h5{font: 700 13px/18px "HalisGR", sans-serif; margin: 0 0 5px 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-transform: uppercase; color: #605371;}
+h6 { font:700 11px/30px "HalisGR", sans-serif; margin: 0 0 5px 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-transform: uppercase; color: #605371; }
 
 p { font: 200 16px/22px "ProximaNov"; margin: 0 0 20px 0; }
 
-small { color: #9e95ab; text-transform: uppercase; font-family: "HalisGR-SBold", sans-serif; font-size: 14px; display: block; }
+small { color: #9e95ab; text-transform: uppercase; font-family: "HalisGR", sans-serif; font-weight: 700; font-size: 14px; display: block; }
 
 a.read-more { font: 700 13px/15px "ProximaNov"; text-transform: uppercase; display: block; margin: 30px 0 0; }
 a.read-more.green { color: #78a22f; }
@@ -267,7 +267,7 @@ header { display: block; position: fixed; top: 0; width: 100%; z-index: 2; }
 .top-header-wrapper .top-header nav ul { padding: 5px 0 1px; }
 .top-header-wrapper .top-header nav ul li { display: inline-block; height: 20px; overflow: hidden; }
 .top-header-wrapper .top-header nav ul li:first-child { margin-right: 15px; }
-.top-header-wrapper .top-header nav ul li a { color: white; font: 14px/17px "HalisGR-Regular", sans-serif; vertical-align: middle; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
+.top-header-wrapper .top-header nav ul li a { color: white; font: normal 14px/17px "HalisGR", sans-serif; vertical-align: middle; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
 .top-header-wrapper .top-header nav ul li a.pinterest { font-size: 18px; }
 .top-header-wrapper .top-header nav ul li a.googlePlus{ font-size: 25px; }
 .top-header-wrapper .top-header nav ul li a.linkedin { font-size: 28px; margin: -3px 0 0 0; display: block; }
@@ -288,10 +288,10 @@ header { display: block; position: fixed; top: 0; width: 100%; z-index: 2; }
 .main-header-wrapper .main-header nav.desktop > ul { margin: 45px 0 0; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
 .main-header-wrapper .main-header nav.desktop > ul li { display: inline-block; padding: 10px 10px 17px; position: relative; }
 .main-header-wrapper .main-header nav.desktop > ul li:last-child { margin-right: 0; }
-.main-header-wrapper .main-header nav.desktop > ul li a { font: 15px/22px "HalisGR-SBold", sans-serif; text-transform: uppercase; color: #fff; padding: 10px; background: transparent; }
+.main-header-wrapper .main-header nav.desktop > ul li a { font: 700 15px/22px "HalisGR", sans-serif; text-transform: uppercase; color: #fff; padding: 10px; background: transparent; }
 .main-header-wrapper .main-header nav.desktop > ul li ul.sub-menu { display: none; background: rgba(95, 82, 113, 0.98); top: 2px; width: 150px; margin: 35px 0 0 0; z-index: 100; position: absolute; }
 .main-header-wrapper .main-header nav.desktop > ul li ul.sub-menu li { display: block; padding: 0; }
-.main-header-wrapper .main-header nav.desktop > ul li ul.sub-menu li a { color: white; text-transform: none; font: 15px/22px "HalisGR-Regular", sans-serif; box-sizing: border-box; padding: 10px 13px; display: block; }
+.main-header-wrapper .main-header nav.desktop > ul li ul.sub-menu li a { color: white; text-transform: none; font: normal 15px/22px "HalisGR", sans-serif; box-sizing: border-box; padding: 10px 13px; display: block; }
 .main-header-wrapper .main-header nav.desktop > ul li ul.sub-menu li:hover a { background: #aac852; }
 .main-header-wrapper .main-header nav.desktop > ul li:hover ul.sub-menu { display: block; }
 .main-header-wrapper .main-header nav.desktop > ul li:hover a { background: rgba(95, 82, 113, 0.98); color: #fff; }
@@ -341,7 +341,7 @@ main#default { padding: 35px 0 0 0; }
 
 .home-tabs .tabs-select ul { display: block; text-align: center; margin: 0 auto 30px; width: 100%; font-size: 0; }
 .home-tabs .tabs-select ul li { display: inline-block; text-align: center; margin: 0 20px; }
-.home-tabs .tabs-select ul li a { font: 14px/18px "HalisGR-SBold", sans-serif; text-transform: uppercase; color: #9f9f9f; padding: 0 4px 8px; }
+.home-tabs .tabs-select ul li a { font:700 14px/18px "HalisGR", sans-serif; text-transform: uppercase; color: #9f9f9f; padding: 0 4px 8px; }
 .home-tabs .tabs-select ul li a:hover{color: #605371;}
 .home-tabs .tabs-select ul li a.current { color: #605371; border-bottom: 4px solid #605371; }
 .home-tabs .tab-container .tab-content { display: none; }
@@ -509,7 +509,7 @@ footer .footer-inner .footer-right a:hover { color: #78a22f; }
 #filter .chosen-container-single .chosen-single { font-size: 18px; border-bottom: 3px solid; border-top: 1px solid; border-right: 1px solid; border-left: 1px solid; padding: 9px; border-color: #cfcfcf; border-top-left-radius: 3px; border-top-right-radius: 3px; }
 #filter > ul { display: block; width: 100%; font-size: 0; margin-left: -1%; }
 #filter > ul > li { display: inline-block; width: 18%; padding: 0 1%; }
-#filter > ul > li label { font: 11px/22px "HalisGR-SBold", sans-serif; color: #9f9f9f; }
+#filter > ul > li label { font: 700 11px/22px "HalisGR", sans-serif; color: #9f9f9f; }
 #filter > ul > li .keyword-search input { font: 300 22px/24px "ProximaNov"; color: #605371; border: none; font-size: 23px; font-weight: 200; width: 170px; background: url("../images/filter-search-icon.png") right center no-repeat; }
 #filter > ul > li .keyword-search input::-webkit-input-placeholder { color: #ada5b6; }
 #filter > ul > li .keyword-search input::-moz-placeholder { color: #ada5b6; }
@@ -628,7 +628,7 @@ main .module.blog-post .main-post-content .main-post-border a.read-more:hover { 
 .post-filter .chosen-container-single .chosen-single span { float: left; }
 .post-filter ul { text-align: center; }
 .post-filter ul li { display: inline-block; width: 45%; text-align: center; vertical-align: top; }
-.post-filter ul li label { font: 11px/22px "HalisGR-SBold", sans-serif; color: #9f9f9f; }
+.post-filter ul li label { font: 700 11px/22px "HalisGR", sans-serif; color: #9f9f9f; }
 .post-filter ul li input[type=text] { font: 200 22px/24px "ProximaNov"; color: #605371; border: none; width: 90%; border-bottom: 3px solid; border-top: 1px solid; border-left: 1px solid; border-right: 1px solid; font-size: 18px; box-sizing: border-box; margin: 0 auto; padding: 11px; border-color: #cfcfcf; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none; }
 .post-filter ul li input[type=text]::-webkit-input-placeholder { color: #ada5b6; }
 .post-filter ul li input[type=text]::-moz-placeholder { color: #ada5b6; }
@@ -684,7 +684,7 @@ a.pinit-button { background: #529ba0; position: absolute; top: 0; left: 0; }
 #single .post-images ul li a:hover{background: rgba(65,146,152,.9);}
 #single .post-images ul li a span{border: 1px solid transparent; width: 96%; height: 96%; position: absolute; display: block; top: 50%; left: 50%;transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); background: transparent;}
 #single .post-images ul li a:hover span{border-color: #6bbcc1; background: url(../images/pin.png) no-repeat center center;}
-/*#single .post-images ul li a span:after{  content: 'Pin It'; position: absolute; bottom: 26%;   visibility: hidden; color: #fff; font-size: 16px; left: 50%; transform: translateX(-50%); border-bottom: 2px solid; font: 20px/22px "HalisGR-SBold"; text-transform: uppercase;}
+/*#single .post-images ul li a span:after{  content: 'Pin It'; position: absolute; bottom: 26%;   visibility: hidden; color: #fff; font-size: 16px; left: 50%; transform: translateX(-50%); border-bottom: 2px solid; font: 20px/22px "HalisGRBold"; text-transform: uppercase;}
 #single .post-images ul li a:hover span:after{  visibility: visible;}*/
 #single .post-images ul li.small { width: 49%; }
 
@@ -872,7 +872,7 @@ width: 50%;}
 .contact-us .gform_fields li { display: inline-block; list-style: none; text-align: center; width: 33%; margin-bottom: 10px; position: relative; }
 .contact-us .gform_fields li#field_1_20{display:  none !important;}
 .contact-us .gform_fields li:before { content: ''; padding: 0; margin: 0; }
-.contact-us .gform_fields li label { display: block; font: 11px/16px "HalisGR-SBold", sans-serif; text-transform: uppercase; }
+.contact-us .gform_fields li label { display: block; font:700 11px/16px "HalisGR", sans-serif; text-transform: uppercase; }
 /* .contact-us .gform_fields li label.error{position: absolute; bottom: -20px; font-size: 9px; right:0;} */
 .contact-us .gform_fields li input[type='text'], .contact-us .gform_fields li input[type='tel'], .contact-us .gform_fields li input[type='email'] { border-bottom: 3px solid; border-top: 1px solid; border-right: 1px solid; border-left: 1px solid; font-size: 22px; line-height: 26px; max-width: 176px; width: 100%; text-align: left; color: #605371; background: none; padding: 5px; font: 100 22px/26px "ProximaNov"; }
 .contact-us .gform_fields li input[type='text']:placeholder, .contact-us .gform_fields li input[type='tel']:placeholder, .contact-us .gform_fields li input[type='email']:placeholder { font: 100 40px/46px "ProximaNov"; }
@@ -922,7 +922,7 @@ width: 50%;}
 
 .contact-us-full ul li .gfield_date_dropdown_month , .contact-us-full ul li .gfield_date_dropdown_day, .contact-us-full ul li .gfield_date_dropdown_year {width: 30%; display: inline-block; margin: 0 1.5% 0 0;}
 .contact-us-full ul li#field_3_6{width: 100%;}
-.contact-us-full ul li > label { display: block; font: 11px/22px "HalisGR-SBold", sans-serif; text-transform: uppercase; color: #605371; }
+.contact-us-full ul li > label { display: block; font:700 11px/22px "HalisGR", sans-serif; text-transform: uppercase; color: #605371; }
 .contact-us-full ul li input[type='text'], .contact-us-full ul li input[type='tel'], .contact-us-full ul li input[type='email'] { border-bottom: 3px solid; border-top: 1px solid; border-left: 1px solid; border-right: 1px solid; border-color: #cfcfcf; width: 100%; text-align: left; color: #605371; background: none; padding: 5px; font: 100 18px/26px "ProximaNov"; }
 .contact-us-full ul li input[type='text']:placeholder, .contact-us-full ul li input[type='tel']:placeholder, .contact-us-full ul li input[type='email']:placeholder { font: 100 40px/46px "ProximaNov"; }
 .contact-us-full ul li textarea { width: 95%; border-bottom: 3px solid; border-top: 1px solid; border-left: 1px solid; border-right: 1px solid; border-color: #cfcfcf; resize: none; }
@@ -1054,7 +1054,7 @@ width: 50%;}
 
 .team-bios h3{margin: 0 0 5px; font-weight: 300;}
 
-.team-bios small{color: #9f9f9f; font: 14px/16px 'HalisGR-Medium', sans-serif;  }
+.team-bios small{color: #9f9f9f; font: 700 14px/16px 'HalisGR', sans-serif;  }
 
 .team-bios p{margin: 20px 0; color: #5d5d5d;}
 
@@ -1096,7 +1096,7 @@ width: 50%;}
   .main-header-wrapper { padding: 0 20px; }
   .main-header-wrapper .main-header { width: 100%; }
   .main-header-wrapper .main-header nav.desktop ul li { padding: 10px 7px 17px; }
-  .main-header-wrapper .main-header nav.desktop ul li a { font: 13px/20px "HalisGR-SBold", sans-serif; }
+  .main-header-wrapper .main-header nav.desktop ul li a { font:700 13px/20px "HalisGR", sans-serif; }
   main .module { margin: 40px 20px 0; display: block; width: auto; max-width: 100%; }
   main .venues.desktop { display: none !important; }
   main .venues.mobile { display: block; margin-top: 70px; }
@@ -1157,13 +1157,13 @@ width: 50%;}
   .main-header-wrapper .main-header nav.mobile > ul > li ul { position: relative; display: none; }
   .main-header-wrapper .main-header nav.mobile > ul > li ul li { margin-left: 15px; }
   .main-header-wrapper .main-header nav.mobile > ul > li ul li a { text-transform: none; font-size: 13px; padding: 5px 0; color: #fff; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
-  .main-header-wrapper .main-header nav.mobile ul li a { font: 200 15px/22px "HalisGR-SBold", sans-serif; text-transform: uppercase; padding: 10px 0; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; display: block; color: white; }
+  .main-header-wrapper .main-header nav.mobile ul li a { font:700 200 15px/22px "HalisGR", sans-serif; text-transform: uppercase; padding: 10px 0; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; display: block; color: white; }
   .main-header-wrapper .main-header nav.mobile ul > li > a{border-top: 1px solid rgba(255, 255, 255, 0.26);}
   .main-header-wrapper .main-header nav.mobile ul > li:first-child > a{border: none;}
   .main-header-wrapper .main-header nav.mobile ul > li > ul > li > a{border: none;}
   .main-header-wrapper .main-header nav.mobile ul li a:hover { color: white; }
   
-  .main-header-wrapper .main-header nav.mobile ul li ul.sub-menu li a { font: 15px/22px "HalisGR-Regular", sans-serif; text-transform: none; }
+  .main-header-wrapper .main-header nav.mobile ul li ul.sub-menu li a { font: nomal 15px/22px "HalisGR", sans-serif; text-transform: none; }
   
   .main-header-wrapper .main-header .dropdwn-btn { display: block; color: #fff; font-size: 13px; height: 30px; line-height: 30px; position: absolute; right: 0; text-align: center; top: 8px; vertical-align: middle; width: 30px; cursor: pointer; }
   
@@ -1336,7 +1336,7 @@ width: 50%;}
   .contact-us-full ul li.address span.ginput_left,.contact-us-full ul li.address span.ginput_right{width: 100%; margin: 0 0 20px 0;}
   .contact-table ul li{width: 100%; display: block; margin: 0 0 5% 0;}
   .contact-us-full button{float: left;}
-  .contact-us .gform_fields li label {  font: 10px/15px "HalisGR-SBold", sans-serif;  }
+  .contact-us .gform_fields li label {  font:700 10px/15px "HalisGR", sans-serif;  }
   #venue-search{max-height: 0; overflow: hidden; -webkit-transition: max-height .2s ease-out; transition: max-height .2s ease-out; -moz-transition: max-height .2s ease-out;}
   #venue-search.opened{max-height: 510px;}
   .mobile-accoridan {display: block;}

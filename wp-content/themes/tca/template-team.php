@@ -29,15 +29,43 @@
 
 
 	<div class="wrapper">
-		<!--<
-div class="team-bios">
-			<div><div class="this"><h3>Person 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p></div></div>
-			<div><div class="this"><h3>Person 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p></div></div>
-			<div><div class="this"><h3>Person 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p></div></div>
-			<div><div class="this"><h3>Person 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p></div></div>
-			<div><div class="this"><h3>Person 5</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p></div></div>
+		
+		<div class="team-bios">
+			<div><div class="biography">
+				<h3>Person 1</h3>
+				<small>Boston Public Library General Manager</small>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p>
+			</div></div>
+			<div>
+				<div class="biography">
+					<h3>Person 2</h3>
+					<small>Boston Public Library General Manager</small>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p>
+				</div>
+			</div>
+			<div>
+			<div class="biography">
+				<h3>Person 3</h3>
+				<small>Boston Public Library General Manager</small>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p>
+			</div>
+			</div>
+			<div>
+				<div class="biography">
+					<h3>Person 4</h3>
+					<small>Boston Public Library General Manager</small>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p>
+				</div>
+			</div>
+			<div>
+				<div class="biography">
+					<h3>Person 5</h3>
+					<small>Boston Public Library General Manager</small>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p>
+				</div>
+			</div>
 		</div>
--->
+
 		
 	
 	<div class="team-controls">

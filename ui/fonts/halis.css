@@ -1,148 +1,5 @@
 @import "//hello.myfonts.net/count/252964";
 
-/* @license
- * MyFonts Webfont Build ID 2435428, 2012-12-20T13:24:48-0500
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed halis(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: Halis Grotesque Light Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/light-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Light by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/light/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Black by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/black/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Black Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/black-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Bold by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/bold/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Book Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/book-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque ExtraLight by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/exlight/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque ExtraLight Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/exlight-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Book by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/book/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Medium by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/medium/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Medium Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/medium-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/regular-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Bold Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/bold-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Regular by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/regular/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Black by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sblack/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Black Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sblack-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Bold by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sbold/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Bold Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sbold-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Book Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sbook-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Book by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sbook/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC ExtraLight by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sexlight/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC ExtraLight Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sexlight-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Light by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/slight/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC light Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/slight-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Medium by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/smedium/
- * Copyright: Copyright (c) 2012 by Ahmet altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Regular by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sregular/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Medium Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/smedium-italic/
- * Copyright: Copyright (c) 2012 by Ahmet altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sregular-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Thin by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sthin/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque SC Thin Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sthin-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Thin by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/thin/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * Webfont: Halis Grotesque Thin Italic by Ahmet Altun
- * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/thin-italic/
- * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2435428
- * 
- * © 2012 Bitstream Inc
-*/
-/* @import must be at top of file, otherwise CSS will not work */
 @font-face {
 	font-family:'HalisGR-LightItalic';
 	src:url(halis/252964_0_0.eot);
@@ -334,3 +191,149 @@
 	src:url("halis/252964_1F_0.eot");
 	src:url("halis/252964_1F_0.eot?#iefix") format("embedded-opentype"),url("halis/252964_1F_0.woff") format("woff"),url("halis/252964_1F_0.ttf") format("truetype");
 }
+
+
+
+/* @license
+ * MyFonts Webfont Build ID 2435428, 2012-12-20T13:24:48-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed halis(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Halis Grotesque Light Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/light-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Light by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/light/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Black by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/black/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Black Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/black-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Bold by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/bold/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Book Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/book-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque ExtraLight by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/exlight/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque ExtraLight Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/exlight-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Book by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/book/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Medium by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/medium/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Medium Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/medium-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/regular-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Bold Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/bold-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Regular by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/regular/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Black by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sblack/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Black Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sblack-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Bold by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sbold/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Bold Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sbold-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Book Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sbook-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Book by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sbook/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC ExtraLight by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sexlight/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC ExtraLight Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sexlight-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Light by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/slight/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC light Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/slight-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Medium by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/smedium/
+ * Copyright: Copyright (c) 2012 by Ahmet altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Regular by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sregular/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Medium Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/smedium-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sregular-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Thin by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sthin/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque SC Thin Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/sthin-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Thin by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/thin/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * Webfont: Halis Grotesque Thin Italic by Ahmet Altun
+ * URL: http://www.myfonts.com/fonts/ahmet-altun/halis-gr/thin-italic/
+ * Copyright: Copyright (c) 2012 by Ahmet Altun. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2435428
+ * 
+ * © 2012 Bitstream Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
