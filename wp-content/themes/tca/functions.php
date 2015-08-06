@@ -319,8 +319,17 @@ function enqueue_scripts() {
     wp_enqueue_script('modernizr', get_bloginfo('url').'/ui/js/modernizr.js', array(), null);
     wp_enqueue_script('jquery', get_bloginfo('url').'/ui/js/jquery.js', array(), null);
     wp_enqueue_script('plugins', get_bloginfo('url').'/ui/js/jquery.plugins.js', array('jquery'), null, true);
+    if(isset($_GET['test'])){
+  
+    wp_enqueue_script('team', get_bloginfo('url').'/ui/js/jquery.team.js', array('jquery'), null, true); 
+	} else {
+	
+	wp_enqueue_script('init', get_bloginfo('url').'/ui/js/jquery.init.js', array('jquery', 'plugins'), null, true);
+	}
     if(get_post_type() == 'venue') wp_enqueue_script('venues', get_bloginfo('url').'/ui/js/jquery.hammer.js', array('jquery'), null, true);
-    wp_enqueue_script('init', get_bloginfo('url').'/ui/js/jquery.init.js', array('jquery', 'plugins'), null, true);
+ 
+    
+
 }
 add_action('wp_enqueue_scripts', 'enqueue_scripts');
     

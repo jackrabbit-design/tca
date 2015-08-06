@@ -305,41 +305,96 @@ function toInfinityScrollAndBeyond() {
 }
 
 function _teamPage(){
+
+	var $sync1 = $('.team-slider');
+	var $sync2 = $('.team-bios');
+	var flag = false;
+	var duration = 300;
+
+	$sync1.owlCarousel({
+			nav: false,
+			
+			dots: false,
+			autoWidth: true,
+			responsive: {
+				480 : {
+					items: 1,
+					margin: 40,
+					center: false
+				},
+				768 : {
+					items: 3,
+					margin: 40,
+					mouseDrag: false,
+					touchDrag: true,
+					center: true,
+				},
+				960 : {
+					items: 5,
+					margin: 100,
+					mouseDrag: false,
+					touchDrag: false,
+					loop: false,
+					center: true,
+
+				}
+			}
+		}).on('changed.owl.carousel', function (e) {
+			if (!flag) {
+				flag = true;
+				$sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
+				flag = false;
+			}
+		});
+
+	$sync2.owlCarousel({
+			animateOut: 'fadeOut',
+			items: 1,
+			nav: false,
+			center: true,
+			dots: false
+		}).on('click', '.owl-item', function () {
+			$sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+
+		}).on('changed.owl.carousel', function (e) {
+			if (!flag) {
+				flag = true;		
+				$sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
+				flag = false;
+			}
+		});
+
+
 	
-	
-	
-/*
-	var speed = 400;
 	var wWidth = $(window).width();
-	
-	var url = $('.row-bg').css('background-image').replace('url(', '').replace(')', '').replace("'", '').replace('"', '');
-	var bgImg = $('<img />');
-	bgImg.hide();
-	bgImg.bind('load', function()
-	{
-	    var bWidth = $(this).width();
-	    console.log('And this is the background image size '+bWidth);
-	});
-	$('.row-bg').append(bgImg);
-	bgImg.attr('src', url);
-	
-	console.log('this is the windows '+ wWidth);
+	var bWidth = $('.header-row img').width();
+	var bPos = $('.row-bg img').position();
+	var speed = wWidth/5;
+	console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + 'position: '+ bPos.left + ' ' + bPos.top);
 	
 	$('button.prev').on('click', function(){
-		$('.row-bg').css('background-position', '+='+ speed +' 0');
-		$('.row-three').css('background-position', '+='+ speed +' 0');
-		$('.row-two').css('background-position', '+='+ speed +' 0');
-		$('.row-one').css('background-position', '+='+ speed +' 0');
-		
+		console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + ' position: '+ bPos.left + ' ' + bPos.top);
+		// $('.header-row img').css('transform', '+='+speed);
+		$sync2.trigger('prev.owl.carousel', [300]);
 	});
 
 	$('button.next').on('click', function(){
-		$('.row-bg').css('background-position', '-='+ speed +' 0');
-		$('.row-three').css('background-position', '-='+ speed +' 0');
-		$('.row-two').css('background-position', '-='+ speed +' 0');
-		$('.row-one').css('background-position', '-='+ speed +' 0');
-		
+		console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + 'position: '+ bPos.left + ' ' + bPos.top);
+		// $('.header-row img').css('transform', '-='+speed);
+		$sync2.trigger('next.owl.carousel', [300]);
 	});
-*/
+
+
+   // 'webkitTransform' : 'translate3d('+speed+ 'px, 0)',
+            // 'MozTransform'    : 'translate3d('+speed+ 'px, 0)',
+            // 'msTransform'     : 'translateX(' +speed+'px)',
+            // 'OTransform'      : 'translate3d('+speed+ 'px, 0)',
+            // 'transform'       : 'translate3d('+speed+ 'px, 0)',
+    // 'webkitTransform' : 'translate3d('+speed+ 'px, 0)',
+            // 'MozTransform'    : 'translate3d('+speed+ 'px, 0)',
+            // 'msTransform'     : 'translateX(' +speed+'px)',
+            // 'OTransform'      : 'translate3d('+speed+ 'px, 0)',
+            // 'transform'       : 'translate3d('+speed+ 'px, 0)' ,
+
 }
 
