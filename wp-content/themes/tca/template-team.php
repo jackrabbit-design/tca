@@ -76,16 +76,19 @@
 
 
     </div>
-    <?php query_posts(array('post_type' => 'team-member')); if(have_posts()) : ?>
+    <?php query_posts(array('post_type' => 'team-member', 'posts_per_page' => '-1', 'team-category' => 'non-managment')); if(have_posts()) : ?>
     <div id="full-team" class="clearfix">
     	<ul>
     		<?php while(have_posts()) : the_post(); ?>
     		<li>
     			<div class="headshot">
-    				<img src="http://placehold.it/236x271"/>
+    				<?php
+					$img_id = get_post_thumbnail_id($post->ID); 
+					$image = wp_get_attachment_image_src($img_id, 'headshot');  ?>
+    				<img src="<?php echo $image[0]; ?>" alt="<?php the_title(); ?>"/>
     				<div class="hover">
     					<div class="hover-border">
-    						<blockquote>Nothing is more perfect than a gin summer cocktail topped with refreshing lemon or lime</blockquote>
+    						<blockquote><?php echo get_the_content(); ?></blockquote>
     					</div>
     				</div>
     			</div>

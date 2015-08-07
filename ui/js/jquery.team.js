@@ -401,11 +401,11 @@ function _teamPage(){
 		var bPos = $('.row-bg img').position();
 		//console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + 'position: '+ bPos.left + ' ' + bPos.top);
 		
-		if(bPos.left - wWidth > bWidth){
-			alert('workign');
-		} else {
-			$('.header-row img').css('left', '-='+speed);
-		}
+		// if(bPos.left - wWidth > bWidth){
+		// 	alert('workign');
+		// } else {
+			//$('.header-row img').css('left', '-='+speed);
+		//}
 		$sync2.trigger('next.owl.carousel', [300]);
 	});
 
