@@ -306,6 +306,16 @@ function toInfinityScrollAndBeyond() {
 
 function _teamPage(){
 
+	$('#big-team').owlCarousel({
+		nav: false,
+		dots: true,
+		animateOut: 'fadeOut',
+		items: 1,
+		mouseDrag: false,
+		touchDrag: true,
+
+	});
+
 	var $sync1 = $('.team-slider');
 	var $sync2 = $('.team-bios');
 	var flag = false;
@@ -313,7 +323,7 @@ function _teamPage(){
 
 	$sync1.owlCarousel({
 			nav: false,
-			
+			afterMove: moved,
 			dots: false,
 			autoWidth: true,
 			responsive: {
@@ -364,23 +374,38 @@ function _teamPage(){
 			}
 		});
 
+	function moved() {
+    var owl =  $('.team-slider').data('owlCarousel');
+    if (owl.currentItem + 1 === owl.itemsAmount) {
+        alert('THE END');
+    }
+}
 
+// if background position X plus window width > image width, stop
 	
-	var wWidth = $(window).width();
-	var bWidth = $('.header-row img').width();
-	var bPos = $('.row-bg img').position();
-	var speed = wWidth/5;
-	console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + 'position: '+ bPos.left + ' ' + bPos.top);
+	var wwWidth = $(window).width();
+	// var bWidth = $('.header-row img').width();
+	// var bPos = $('.row-bg img').position();
+	var speed = wwWidth/5;
+	//console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + 'position: '+ bPos.left + ' ' + bPos.top);
 	
 	$('button.prev').on('click', function(){
-		console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + ' position: '+ bPos.left + ' ' + bPos.top);
+		//console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + ' position: '+ bPos.left + ' ' + bPos.top);
 		// $('.header-row img').css('transform', '+='+speed);
 		$sync2.trigger('prev.owl.carousel', [300]);
 	});
 
 	$('button.next').on('click', function(){
-		console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + 'position: '+ bPos.left + ' ' + bPos.top);
-		// $('.header-row img').css('transform', '-='+speed);
+		var wWidth = $(window).width();
+		var bWidth = $('.header-row img').width();
+		var bPos = $('.row-bg img').position();
+		//console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + 'position: '+ bPos.left + ' ' + bPos.top);
+		
+		if(bPos.left - wWidth > bWidth){
+			alert('workign');
+		} else {
+			$('.header-row img').css('left', '-='+speed);
+		}
 		$sync2.trigger('next.owl.carousel', [300]);
 	});
 
