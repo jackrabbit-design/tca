@@ -3,22 +3,25 @@
 	get_header(); ?>
 
   <div class="team-header">
- 		<div class="header-row row-bg"><img src="/ui/images/team/team-bg.jpg"/></div>
-  		<div class="header-row row-three"><img src="/ui/images/team/mid-ground.png"/></div>
-     	<div class="header-row row-two"><img src="/ui/images/team/front.png"/></div>
-     	<div class="header-row row-one"><img src="/ui/images/team/chandy-front.png"/></div>
+ 		<div class="header-row row-bg"></div>
+  		<div class="header-row row-three"></div>
+     	<div class="header-row row-two"></div>
+     	<div class="header-row row-one"></div>
      	<div class="gradient"></div>
      
 
-
+   <?php query_posts(array('post_type' => 'team-member', 'posts_per_page' => '-1', 'team-category' => 'managment')); if(have_posts()) : ?>
 			<div class="team-slider">
-				<div><img src="/ui/images/team/team-1.png"/></div>
-				<div><img src="/ui/images/team/team-2.png"/></div>
-				<div><img src="/ui/images/team/team-3.png"/></div>
-				<div><img src="/ui/images/team/team-1.png"/></div>
-				<div><img src="/ui/images/team/team-3.png"/></div>
-			</div>
+				<?php while(have_posts()): the_post();
+					$image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full'); 
+				 ?>
 
+				<div><img src="<?php echo $image[0]; ?>"/>
+					<div class="hover"><span><p><?php the_field('manger_quote'); ?></p> <small><?php the_field('manager_quote_sub'); ?></small></span></div>
+				</div>
+				<?php endwhile; ?>
+			</div>
+		<?php endif; ?>
 
 		
 	</div>
@@ -26,7 +29,7 @@
 	<div class="page-title">
 		<h1><?php the_title(); ?></h1>
 		<div class="team-controls">
-	      <button class="btn prev"></button>
+	      <button class="btn prev hide"></button>
 	      <button class="btn next"></button>
 	    </div>
 		
@@ -34,46 +37,24 @@
 
 
 	<div class="wrapper">
-		
+		<?php if(have_posts()) : ?>
 		<div class="team-bios">
+			<?php while(have_posts()) : the_post(); ?>
 			<div><div class="biography">
-				<h3>Person 1</h3>
-				<small>Boston Public Library General Manager</small>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p>
+				<h3><?php the_title(); ?></h3>
+				<small><?php the_field('job_title'); ?></small>
+				<?php the_content(); ?>
 			</div></div>
-			<div>
-				<div class="biography">
-					<h3>Person 2</h3>
-					<small>Boston Public Library General Manager</small>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p>
-				</div>
-			</div>
-			<div>
-			<div class="biography">
-				<h3>Person 3</h3>
-				<small>Boston Public Library General Manager</small>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p>
-			</div>
-			</div>
-			<div>
-				<div class="biography">
-					<h3>Person 4</h3>
-					<small>Boston Public Library General Manager</small>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p>
-				</div>
-			</div>
-			<div>
-				<div class="biography">
-					<h3>Person 5</h3>
-					<small>Boston Public Library General Manager</small>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at scelerisque ante. Curabitur tincidunt eros id metus finibus aliquam. </p>
-				</div>
-			</div>
+			<?php endwhile; ?>
+			
 		</div>
-
-		
+		<?php endif; ?>
+		<div class="team-controls-btm">
+	      <button class="btn prev hide">Meet Name</button>
+	      <button class="btn next">Meet Name</button>
+	    </div>
 	
-
+	<?php wp_reset_query(); ?>
 
     </div>
     <?php query_posts(array('post_type' => 'team-member', 'posts_per_page' => '-1', 'team-category' => 'non-managment')); if(have_posts()) : ?>
@@ -98,9 +79,6 @@
     			</div>
     		</li>
     	<?php endwhile; ?>
-    	
-
-
     	</ul>
     </div>
     <?php endif; wp_reset_query(); ?>

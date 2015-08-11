@@ -313,7 +313,6 @@ function _teamPage(){
 		items: 1,
 		mouseDrag: false,
 		touchDrag: true,
-
 	});
 
 	var $sync1 = $('.team-slider');
@@ -323,7 +322,6 @@ function _teamPage(){
 
 	$sync1.owlCarousel({
 			nav: false,
-			afterMove: moved,
 			dots: false,
 			autoWidth: true,
 			responsive: {
@@ -346,7 +344,7 @@ function _teamPage(){
 					touchDrag: false,
 					loop: false,
 					center: true,
-
+			
 				}
 			}
 		}).on('changed.owl.carousel', function (e) {
@@ -355,7 +353,16 @@ function _teamPage(){
 				$sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
 				flag = false;
 			}
+			var howMany = e.item.count - 1;
+			if(e.item.index == 0){
+				$('button.prev').addClass('hide');	
+			} else if(e.item.index == howMany){
+				$('button.next').addClass('hide');
+			}
+			
+		
 		});
+		
 
 	$sync2.owlCarousel({
 			animateOut: 'fadeOut',
@@ -373,53 +380,17 @@ function _teamPage(){
 				flag = false;
 			}
 		});
-
-	function moved() {
-    var owl =  $('.team-slider').data('owlCarousel');
-    if (owl.currentItem + 1 === owl.itemsAmount) {
-        alert('THE END');
-    }
-}
-
-// if background position X plus window width > image width, stop
-	
-	var wwWidth = $(window).width();
-	// var bWidth = $('.header-row img').width();
-	// var bPos = $('.row-bg img').position();
-	var speed = wwWidth/5;
-	//console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + 'position: '+ bPos.left + ' ' + bPos.top);
 	
 	$('button.prev').on('click', function(){
-		//console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + ' position: '+ bPos.left + ' ' + bPos.top);
-		// $('.header-row img').css('transform', '+='+speed);
+		$('.header-row').css('background-position', '-=100 0');
 		$sync2.trigger('prev.owl.carousel', [300]);
+		$('button.next').removeClass('hide');	
 	});
 
 	$('button.next').on('click', function(){
-		var wWidth = $(window).width();
-		var bWidth = $('.header-row img').width();
-		var bPos = $('.row-bg img').position();
-		//console.log('this is the windows width: '+ wWidth + ' and this is the image background width: '+ bWidth + 'position: '+ bPos.left + ' ' + bPos.top);
-		
-		// if(bPos.left - wWidth > bWidth){
-		// 	alert('workign');
-		// } else {
-			//$('.header-row img').css('left', '-='+speed);
-		//}
+		$('.header-row').css('background-position', '+=100 0');
+		$('button.prev').removeClass('hide');	
 		$sync2.trigger('next.owl.carousel', [300]);
 	});
-
-
-   // 'webkitTransform' : 'translate3d('+speed+ 'px, 0)',
-            // 'MozTransform'    : 'translate3d('+speed+ 'px, 0)',
-            // 'msTransform'     : 'translateX(' +speed+'px)',
-            // 'OTransform'      : 'translate3d('+speed+ 'px, 0)',
-            // 'transform'       : 'translate3d('+speed+ 'px, 0)',
-    // 'webkitTransform' : 'translate3d('+speed+ 'px, 0)',
-            // 'MozTransform'    : 'translate3d('+speed+ 'px, 0)',
-            // 'msTransform'     : 'translateX(' +speed+'px)',
-            // 'OTransform'      : 'translate3d('+speed+ 'px, 0)',
-            // 'transform'       : 'translate3d('+speed+ 'px, 0)' ,
-
 }
 
