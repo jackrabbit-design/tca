@@ -50,7 +50,7 @@ add_image_size('venue-large', 1600, 1600, false);
 add_image_size('footer-lead', 180, 999, false);
 add_image_size('interior-banner', 1600, 900, true);
 add_image_size('blog-banner', 1600, 950, true);
-add_image_size( 'headshot', 236, 271, true);
+add_image_size( 'headshot', 236, 271, array( 'center', 'top' ));
 //add_image_size( 'size-name', 100, 100, true);236x271
 
 /* Declare Nav Menu Areas */
