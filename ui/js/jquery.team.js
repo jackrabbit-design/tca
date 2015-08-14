@@ -85,8 +85,9 @@ jQuery(function($) { /*Video Background*/
 		var heightOfHero = $('.video-wrapper').height();
 		if (!heightOfHero) {
 			heightOfHero = $('.pg-banner').height();
+			heightOfHero = $('.team-header').height();
 		}
-		if (value < heightOfHero - 200) {
+		if (value < heightOfHero - 150) {
 			$("header").removeClass('small', 500);
 		} else {
 			$("header").addClass('small', 500);
