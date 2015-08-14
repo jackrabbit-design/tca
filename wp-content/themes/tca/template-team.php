@@ -10,18 +10,18 @@
      	<div class="gradient"></div>
      
 
-   <?php query_posts(array('post_type' => 'team-member', 'posts_per_page' => '-1', 'team-category' => 'managment')); if(have_posts()) : ?>
+   <?php query_posts(array('post_type' => 'team-member', 'posts_per_page' => '-1', 'team-category' => 'management')); if(have_posts()) : ?>
 			<div class="team-slider">
 				<?php while(have_posts()): the_post();
 					$image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full'); 
 				 ?>
 
 				<div><img src="<?php echo $image[0]; ?>"/>
-					<div class="hover"><span><p><?php the_field('manger_quote'); ?></p> <small><?php the_field('manager_quote_sub'); ?></small></span></div>
+					<div class="hover"><span><p><?php the_field('manager_quote'); ?></p> <small><?php the_field('manager_quote_sub'); ?></small></span></div>
 				</div>
 				<?php endwhile; ?>
 			</div>
-		<?php endif; ?>
+		<?php endif; wp_reset_query(); ?>
 
 		
 	</div>
@@ -37,7 +37,7 @@
 
 
 	<div class="wrapper">
-		<?php if(have_posts()) : ?>
+		<?php query_posts(array('post_type' => 'team-member', 'posts_per_page' => '-1', 'team-category' => 'management')); if(have_posts()) : ?>
 		<div class="team-bios">
 			<?php while(have_posts()) : the_post(); ?>
 			<div><div class="biography">
@@ -45,16 +45,17 @@
 				<small><?php the_field('job_title'); ?></small>
 				<?php the_content(); ?>
 			</div></div>
+
 			<?php endwhile; ?>
 			
 		</div>
-		<?php endif; ?>
+		
 		<div class="team-controls-btm">
-	      <button class="btn prev hide">Meet Name</button>
-	      <button class="btn next">Meet Name</button>
+	      <button class="btn prev hide">Previous</button>
+	      <button class="btn next">Next </button>
 	    </div>
 	
-	<?php wp_reset_query(); ?>
+	<?php endif;  wp_reset_query(); ?>
 
     </div>
     <?php query_posts(array('post_type' => 'team-member', 'posts_per_page' => '-1', 'team-category' => 'non-managment')); if(have_posts()) : ?>
