@@ -29,18 +29,24 @@
 	<div class="page-title">
 		<h1><?php the_title(); ?></h1>
 		<div class="team-controls">
-	      <button class="btn prev hide"></button>
+	      <button class="btn prev"></button>
 	      <button class="btn next"></button>
 	    </div>
 		
 	</div>
 
 
+
+
+
 	<div class="wrapper">
 		<?php query_posts(array('post_type' => 'team-member', 'posts_per_page' => '-1', 'team-category' => 'management')); if(have_posts()) : ?>
 		<div class="team-bios">
-			<?php while(have_posts()) : the_post(); ?>
-			<div><div class="biography">
+			<?php while(have_posts()) : the_post(); 
+			$prev_post = get_adjacent_post( true, '', true, 'management' );
+			$next_post = get_next_post(); 
+			?>
+			<div><div class="biography" <?php if ( is_a( $prev_post, 'WP_Post' ) ) { ?>data-prev="<?php echo get_the_title( $prev_post->ID ); ?>" <?php } if ( is_a( $next_post, 'WP_Post' ) ) {  ?>data-next="<?php echo get_the_title( $next_post->ID ); ?>"<?php } ?>>
 				<h3><?php the_title(); ?></h3>
 				<small><?php the_field('job_title'); ?></small>
 				<?php the_content(); ?>
@@ -51,7 +57,7 @@
 		</div>
 		
 		<div class="team-controls-btm">
-	      <button class="btn prev hide">Previous</button>
+	      <button class="btn prev">Previous</button>
 	      <button class="btn next">Next </button>
 	    </div>
 	
