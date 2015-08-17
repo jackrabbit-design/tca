@@ -1192,6 +1192,8 @@ width: 50%;}
 
 .team-slider .slick-slide.slick-center.slick-active:hover .hover{opacity: 1;}
 
+.team-slider .slick-slide.slick-center.slick-active{position: relative; z-index: 1;}
+
 .team-slider .slick-slide.slick-center.slick-active img{transform: scale(.9); position: relative; bottom: -30px;    }
 
 
