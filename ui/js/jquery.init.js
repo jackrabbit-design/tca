@@ -366,12 +366,12 @@ function _teamPage(){
 	$('.team-slider').on('swipe', function(event, slick, direction){
  		 if(direction === 'left'){
 
- 			$('.header-row').css('background-position', '-=200 0');
+ 			$('.header-row').css('background-position', '+=200 0');
 			//$('.row-one').css('background-position', '-=200 0');
 
  		 } else if(direction === 'right'){
 
-			$('.header-row').css('background-position', '+=200 0');
+			$('.header-row').css('background-position', '-=200 0');
 			//$('.row-one').css('background-position', '+=200 0');
 
  		 }

@@ -1140,13 +1140,13 @@ width: 50%;}
 
 .team-header .row-bg img{transition: all .25s ease-in-out; }*/
 
-.team-header .row-one {transition: all 1s ease-in-out .2s; background: url(../images/team/chandy-front.png) repeat-x 0px center;}
+.team-header .row-one {transition: all .75s ease-in-out .1s; background: url(../images/team/chandy-front.png) repeat-x 0px center;}
 
-.team-header .row-two {transition: all 1s ease-in-out .1s; background: url(../images/team/front.png) repeat-x 0px center;}
+.team-header .row-two {transition: all .75s ease-in-out .1s; background: url(../images/team/front.png) repeat-x 0px center;}
 
-.team-header .row-three {transition: all 1s ease-in-out ; background: url(../images/team/mid-ground.png) repeat-x 0px center;}
+.team-header .row-three {transition: all .75s ease-in-out ; background: url(../images/team/mid-ground.png) repeat-x 0px center;}
 
-.team-header .row-bg {transition: all 1s ease-in-out; background: url(../images/team/team-bg.jpg) repeat-x 0px center;}
+.team-header .row-bg {transition: all .75s ease-in-out; background: url(../images/team/team-bg.jpg) repeat-x 0px center;}
 
 .team-bios{max-width: 600px; margin: 0 auto; text-align: center; width: auto; padding: 0 20px;}
 
@@ -1182,7 +1182,7 @@ width: 50%;}
 
 .team-slider .slick-slide img{transform: scale(.7); position: relative; bottom: -90px; transition: all .75s ease-out; margin: 0 auto;}
 
-.team-slider .slick-slide .hover{position: absolute; top: 50%; display: none; background: rgba(255,255,255,.9); padding: 10px; width: 630px;left: 50%; text-align: center;transform: translateX(-50%) scale(1);-webkit-transform: translateX(-50%) scale(1);-moz-transform: translateX(-50%) scale(1); opacity: 0; transition: all .25s ease-out; }
+.team-slider .slick-slide .hover{position: absolute; top: 50%; display: none; background: rgba(255,255,255,.9); padding: 10px; width: 630px;left: 50%; text-align: center;transform: translateX(-50%) scale(1);-webkit-transform: translateX(-50%) scale(1);-moz-transform: translateX(-50%) scale(1); opacity: 0; transition: all .25s ease-out; -webkit-transition: all .25s ease-out; }
 
 .team-slider .slick-slide .hover p{font: 300 24px/28px "ProximaNov"; margin: 0 0 10px; color: #605371;}
 
