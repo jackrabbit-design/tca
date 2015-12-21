@@ -32,7 +32,8 @@
 						<?php } if($linked = get_field('linkedin', 'options')) { ?><li><a href="<?php echo $linked; ?>" target="_blank"  class="linkedin"><i class="social-linkedin"></i></a></li>
 						<?php } if($face = get_field('facebook', 'options')) { ?><li><a href="<?php echo $face; ?>" target="_blank"  class="facebook"><i class="social-facebook"></i></a></li>
 						<?php } if($twitter = get_field('twitter', 'options')) { ?><li><a href="<?php echo $twitter; ?>" target="_blank"  class="twitter"><i class="social-twitter"></i></a></li>
-						 <?php } if($google = get_field('google', 'options')) {?><li><a href="<?php echo $google; ?>" target="_blank" class="googlePlus"><i class="social-googleplus"></i></a></li><?php } ?>
+						<?php } if($google = get_field('google', 'options')) {?><li><a href="<?php echo $google; ?>" target="_blank" class="googlePlus"><i class="social-googleplus"></i></a></li>
+						<?php } if($insta = get_field('instagram', 'options')) {?><li><a href="<?php echo $insta; ?>" target="_blank" class="instagram"><i class="social-instagram"></i></a></li><?php } ?>
 					</ul>
 				</nav>
 		
@@ -85,7 +86,8 @@
 						<?php } if($linked = get_field('linkedin', 'options')) { ?><a href="<?php echo $linked; ?>" target="_blank" ><i class="social-linkedin"></i></a>
                         <?php } if($face = get_field('twitter', 'options')) { ?><a href="<?php echo $face; ?>" target="_blank" ><i class="social-facebook"></i></a>
                         <?php } if($twitter = get_field('twitter', 'options')) { ?><a href="<?php echo $twitter; ?>" target="_blank" ><i class="social-twitter"></i></a>
-                        <?php } if($google = get_field('google', 'options')) {?><a href="<?php echo $google; ?>" target="_blank" ><i class="social-googleplus"></i></a><?php } ?>
+                        <?php } if($google = get_field('google', 'options')) {?><a href="<?php echo $google; ?>" target="_blank" ><i class="social-googleplus"></i></a>
+                        <?php } if($insta = get_field('instagram', 'options')) {?><li><a href="<?php echo $insta; ?>" target="_blank" class="googlePlus"><i class="social-googleplus"></i></a></li><?php } ?>
                         </div>
 				</nav>
 			</div>

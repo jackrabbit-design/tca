@@ -319,6 +319,8 @@ header { display: block; position: fixed; top: 0; width: 100%; z-index: 2; }
 .top-header-wrapper .top-header nav ul li a { color: white; font: normal 14px/17px "HalisGR", sans-serif; vertical-align: middle; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
 .top-header-wrapper .top-header nav ul li a.pinterest { font-size: 18px; }
 .top-header-wrapper .top-header nav ul li a.googlePlus{ font-size: 25px; }
+.top-header-wrapper .top-header nav ul li a.instagram{ font-size: 23px; }
+.top-header-wrapper .top-header nav ul li a.instagram i{position: relative; top: 1px;}
 .top-header-wrapper .top-header nav ul li a.linkedin { font-size: 28px; margin: -3px 0 0 0; display: block; }
 .top-header-wrapper .top-header nav ul li a.facebook { font-size: 23px; }
 .top-header-wrapper .top-header nav ul li a.twitter { font-size: 25px; }
@@ -1207,7 +1209,7 @@ width: 50%;}
 
 .page-title .team-controls .prev:before{content: 'a'; font-family: 'tca-arrows'; color: #9e95ab;font-size: 22px; }
 
-.team-controls-btm{text-align: center; margin: 20px auto;}
+.team-controls-btm{text-align: center; margin: 30px auto;}
 
 .team-controls-btm button{background: none; color: #605371; border: 1px solid #9e95ab; font: 300 18px/20px 'ProximaNov', san-serif; position: relative;margin: 0 3px;}
 
@@ -1250,6 +1252,8 @@ width: 50%;}
 .name h4{font-size: 22px; line-height: 24px; font-weight: 300; margin: 0 0 4px; color: #605371;}
 
 .name small{font-size: 10px; line-height: 12px; color: #9f9f9f;}
+
+
 
 #big-team .main-post-content { background: rgba(88, 74, 108, 0.9); color: #fff; padding: 10px; margin: -125px auto 0; width: 770px; position: relative; }
 
